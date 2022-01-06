@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  font-family: "Exo 2-Regular", sans-serif;
+}
+
+p {
+  color: white;
+  font-family: "Exo 2-Regular", sans-serif;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+hr {
+  background-color: #04293A;
+  border-top: 0.5rem solid #ECB365;
+  margin: 0 auto;
+  opacity: 1;
+  width: 100%;
+}
+
+/* Navbar */
+.section1-i {
+  position: sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.navbar {
+  background-color: #041C32;
+}
+
+.navbar-brand {
+  color: #ECB365;
+  font-size: 1.25rem;
+}
+
+.navbar-brand:hover {
+  color: #ECB365;
+}
+
+.navbar-toggler {
+  border: 2px solid #ECB365;
+}
+
+.navbar-toggler:hover {
+  background-color: white;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.nav-link {
+  color: #ECB365;
+  font-size: 1.1rem;
+}
+
+.nav-link:hover {
+  background-color: white;
+  border-radius: 1rem;
+  color: #041C32;
+}
+
+.nav-link:focus {
+  background-color: #041C32;
+  border-radius: 1rem;
+  color: white;
+}
+
+.dropdown-i {
+  color: #ECB365;
+  font-size: 1.1rem;
+}
+
+/* Background Video */
+.section2-i {
+  top: 3.6rem;
+  z-index: -1;
+}
+
+.background-i-vid {
+  align-self: flex-start;
+  object-fit: contain;
+  width: 100%;
+}
+
+/* About Us */
+.section3_4-i {
+  background-color: #04293A;
+  color: white;
+  padding: 5rem 12rem;
+  text-align: center;
+  width: 100%;
+}
+
+.section3_4-i-h1 {
+  margin-bottom: 6rem;
+}
+
+.section3-i-col {
+  margin-top: 2.5rem;
+  padding: 0 2.6rem;
+}
+
+.section3-i-h3 {
+  color: #ECB365;
+  margin: 1.5rem 0;
+}
+
+.fas {
+  color: white;
+  font-size: 5.5rem;
+}
+
+.fas:hover {
+  color: #ECB365;
+}
+
+.fas:focus {
+  color: #ECB365;
+}
+
+/* Our Programs Carousel  */
+.carousel-i-h1 {
+  background-color: #04293A;
+  color: white;
+  margin-bottom: 0;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.carousel-item {
+  background-color: #064663;
+  padding: 0 6rem;
+  text-align: center;
+  width: 100%;
+}
+
+.carousel-i-img {
+  border: 0.1rem solid black;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: fill;
+  width: 50%;
+}
+
+.carousel-i-p {
+  background-color: rgba(0,0,0,0.7);
+  padding: 0.5rem;
+  margin: 0;
+}
+
+.carousel-i-btn {
+  background-color: #041C32;
+  color: #ECB365;
+  font-family: "Exo 2-Regular", sans-serif;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.carousel-i-btn:hover {
+  background-color: white;
+  color: #041C32;
+}
+
+.carousel-control-prev {
+  background-color: white;
+  width: 6rem;
+}
+
+.carousel-control-prev-icon {
+  background-color: #04293A;
+  border-radius: 1rem;
+}
+
+.carousel-control-next {
+  background-color: white;
+  width: 6rem;
+}
+
+.carousel-control-next-icon {
+  background-color: #04293A;
+  border-radius: 1rem;
+}
+
+/* Founder's Words Section*/
+.section4-i {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.section4-i-col {
+  border-left: 0.063rem solid rgba(0, 0, 0, 0.6);
+  border-right: 0.063rem solid rgba(0, 0, 0, 0.6);
+}
+
+.section4-i-img {
+  padding: 1.5rem 0;
+  width: 40%;
+}
+
+/* --------------------------------- */
+.yellow {
+  background-color: yellow;
+  height: 500px;
+}
